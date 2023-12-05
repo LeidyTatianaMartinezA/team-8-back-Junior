@@ -1,0 +1,28 @@
+###
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Tatiana",
+  "lastName": "Martinez",
+  "email": "TatianaM@correo.com",
+  "rol": "student"
+}
+
+###
+GET http://localhost:3000/users HTTP/1.1
+
+###
+GET http://localhost:3000/users/6470dd8be71e165a44b4b66e5 HTTP/1.1
+
+###
+PUT http://localhost:3000/users/6467ce1e82255f7d2c039db HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "",
+  "lastName": ""
+}
+
+###
+DELETE http://localhost:3000/users/64794b5981a4b85f9d81076d HTTP/1.1

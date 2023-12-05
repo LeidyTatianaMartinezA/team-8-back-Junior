@@ -1,0 +1,34 @@
+{
+  "name": "mvp",
+  "version": "1.0.0",
+  "description": "<br />",
+  "main": "app.js",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "http": "^0.0.1-security",
+    "joi": "^17.9.2",
+    "mongodb": "^5.9.1",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Intech Mom_Tatiana Martinez",
+  "type": "module",
+  "keywords": [],
+  "license": "ISC"
+}
